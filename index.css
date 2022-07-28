@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Courier New", monospace;
+}
+html, body
+{
+    width: 100vw;
+    height: 100vh;
+}
+.flex-container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.header
+{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: darkgray solid 0.2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.add-book
+{
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+.grid-3x3
+{
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    grid-gap: 2rem;
+    height: 100%;
+    width: 100%;
+}
